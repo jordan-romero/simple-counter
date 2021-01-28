@@ -7,6 +7,8 @@ const Counter = () => {
     return (
         <div>
             <p>The count is {count}</p>
+            <button onClick={() => updateCount(count + 1)}>+</button>
+            <button onClick={() => updateCount(count - 1)}>-</button>
         </div>
     )
 }
