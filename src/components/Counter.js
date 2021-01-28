@@ -2,11 +2,11 @@ import React, { useState }from 'react'
 
 const Counter = () => {
     
-    [count, updateCount] = useState()
+    const [count, updateCount] = useState(0)
 
     return (
         <div>
-            
+            <p>The count is {count}</p>
         </div>
     )
 }
